@@ -1,0 +1,94 @@
+.top {
+	min-height: calc(120vh - 81px);
+	background-image: url(../img/jpg/main-photo.jpg);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title {
+	padding-top: 230px;
+	font-size: 96px;
+	font-weight: 400;
+}
+
+.subtitle {
+	font-size: 36px;
+	margin-bottom: 5px;
+}
+
+.text {
+	font-size: 13px;
+	margin-bottom: 50px;
+}
+
+.text__two {
+	padding-top: 6px;
+	font-size: 13px;
+}
+
+.buy__button {
+	display: flex;
+	padding: 1px;
+	font-weight: 700;
+	background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+}
+
+.buy__button-text {
+	color: var(--white);
+	padding: 21px 111px;
+}
+
+.buy__button-price,
+.buy__button-price-two {
+	font-weight: 700;
+	color: var(--grey);
+	padding: 21px 106px;
+	background: #e7e3e5;
+}
+
+.buy__button-price-two {
+	background: var(--white);
+}
+
+.buy {
+	text-align: center;
+	margin-bottom: 110px;
+	position: relative;
+	overflow-x: hidden;
+}
+
+.buy__img {
+	margin-bottom: 30px;
+}
+
+.buy .buy__button {
+	margin: 0 auto;
+
+}
+
+.buy__background {
+	background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+	font-size: 400px;
+	line-height: 400px;
+	opacity: 0.1;
+	position: absolute;
+	z-index: -1;
+	animation: line__text 6s linear 1s infinite;
+
+}
+
+@keyframes line__text {
+	from {
+		transform: translateX(115%);
+		transform-origin: left center;
+	}
+
+	to {
+		transform: translateX(-115%);
+		transform-origin: right center;
+	}
+}

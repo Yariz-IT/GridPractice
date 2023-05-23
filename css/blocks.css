@@ -1,0 +1,28 @@
+
+.block__title {
+    margin-bottom: 50px;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blocks__item {
+    margin-bottom: 10px;
+}
+
+.block__text-title {
+    background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.blocks__item--one {
+    grid-row: -1/1;
+}
+
